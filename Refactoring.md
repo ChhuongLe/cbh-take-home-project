@@ -11,7 +11,7 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 ## Your Explanation Here
 
 ### I added the `encypter` function to remove repetitive lines of code
-  * Cleans ups viewing space and makes it easier to understand
+  * Cleans up viewing space and makes it easier to understand
 ### I also made it so that the conditional statements would be sectioned off to handle specific events and handle the return values:
   * check if an event is present
   * check if the partion key is present
