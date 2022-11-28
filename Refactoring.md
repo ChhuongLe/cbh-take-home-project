@@ -9,11 +9,12 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
-1. I added the `encypter` function to remove repetitive lines of code
-  - Cleans ups viewing space and makes it easier to understand
-2. I also made it so that the conditional statements would be sectioned off to handle specific events and handle the return values:
-  - check if an event is present
-  - check if the partion key is present
-  - check if the partition key is of the correct type
-3. Reduced scope of `candidate` variable to reduce memory usage
-  - Will only initialize if `event` is of the correct type and length
+
+### I added the `encypter` function to remove repetitive lines of code
+  * Cleans ups viewing space and makes it easier to understand
+### I also made it so that the conditional statements would be sectioned off to handle specific events and handle the return values:
+  * check if an event is present
+  * check if the partion key is present
+  * check if the partition key is of the correct type
+### Reduced scope of `candidate` variable to reduce memory usage
+  * Will only initialize if `event` is of the correct type and length
